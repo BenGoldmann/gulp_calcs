@@ -1,0 +1,26 @@
+from matplotlib import pyplot as plt
+import re
+import glob
+
+def getEnergy(path):
+    with open(path) as file:
+        content = file.readlines()
+    for line in content:
+        if "Final defect energy" in line:
+            return float(re.findall("[-+]?[.]?[\d]+(?:,\d\d\d)*[\.]?\d*(?:[eE][-+]?\d+)?", line)[0])
+            
+def energyList(data):
+    files = glob.glob(data)
+    energies = dict()
+    for f in files:
+        energies[f] = getEnergy(f)
+    return energies
+    
+data = energyList('*.out')
+
+sorted = dict(sorted(data.items(), key=lambda item: item[0]))
+
+plt.bar(range(len(sorted)), list(sorted.values()), align='center')
+plt.xticks(range(len(sorted)), list(sorted.keys()))
+plt.ylim(14.5, 15)
+plt.show
