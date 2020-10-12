@@ -1,2 +1,2 @@
-# migration-path-input
-This script creates input files for GULP calculations. Each file describes a stage in the migration of a defect.
+# GULP-scripts
+These scripts interact with GULP files to make input file creation and data extraction easier.
