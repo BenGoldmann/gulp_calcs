@@ -1,0 +1,45 @@
+import re
+import glob
+
+def getEnergy(path):
+    with open(path) as file:
+        content = file.readlines()
+    for line in content:
+        if "Final defect energy" in line:
+            return float(re.findall("[-+]?[.]?[\d]+(?:,\d\d\d)*[\.]?\d*(?:[eE][-+]?\d+)?", line)[0])
+
+def getFreeEnergy(path):
+    with open(path) as file:
+        content = file.readlines()
+    for line in content:
+        if "Final energy" in line:
+            return float(re.findall("[-+]?[.]?[\d]+(?:,\d\d\d)*[\.]?\d*(?:[eE][-+]?\d+)?", line)[0])
+
+def energyList(data):
+    files = glob.glob(data)
+    energies = dict()
+    for f in files:
+        energies[f] = getEnergy(f)
+    return energies
+        
+def freeEnergy(data):
+    free_energy = getFreeEnergy(data)
+    return free_energy
+    
+energies = energyList('*.out')
+free_energy = freeEnergy('zro2_o_imig.out')    
+    
+print("O vacancy defect energy: ", energies['zro2_o_vac.out'], " eV")
+print("O vacancy migration barrier: ", (energies['zro2_o_vmig.out'] - energies['zro2_o_vac.out']), " eV")
+print("O interstitial defect energy: ", energies['zro2_o_int.out'], " eV")
+print("O interstitial migration barrier: ", (energies['zro2_o_imig.out'] - energies['zro2_o_int.out']), " eV")
+print("\n")
+print("Zr vacancy defect energy: ", energies['zro2_zr_vac.out'], " eV")
+print("Zr vacancy migration barrier: ", (energies['zro2_zr_vmig.out'] - energies['zro2_zr_vac.out']), " eV")
+print("Zr interstitial defect energy: ", energies['zro2_zr_int.out'], " eV")
+print("Zr interstitial migration barrier: ", (energies['zro2_zr_imig.out'] - energies['zro2_zr_int.out']), " eV")
+print("\n")
+print("ZrO2 Schottky defect energy: ", (energies['zro2_o_vac.out'] * 2 + energies['zro2_zr_vac.out'] + free_energy), " eV")
+print("O Frenkel defect energy: ", (energies['zro2_o_vac.out'] + energies['zro2_o_imig.out']), " eV")
+print("Zr Frenkel defect energy: ", (energies['zro2_zr_vac.out'] + energies['zro2_zr_imig.out']), " eV")
+print("Free energy =", free_energy, " eV")
