@@ -13,7 +13,8 @@ def energyList(data):
     files = glob.glob(data)
     energies = dict()
     for f in files:
-        energies[f] = getEnergy(f)
+        energy = getEnergy(f)
+        energies[f.removesuffix('.out')] = energy
     return energies
     
 data = energyList('*.out')
