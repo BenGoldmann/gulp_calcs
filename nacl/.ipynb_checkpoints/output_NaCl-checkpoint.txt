@@ -1,0 +1,14 @@
+Cl vacancy defect energy: 5.17465689 eV
+Cl vacancy migration barrier: 0.6971265100000004 eV
+Cl interstitial defect energy: -1.28517861 eV
+Cl interstitial migration barrier: 0.21521291999999992 eV
+
+Na vacancy defect energy: 5.2037668 eV
+Na vacancy migration barrier: 0.6512798899999996 eV
+Na interstitial defect energy: -1.92348389 eV
+Na interstitial migration barrier: 0.27849842999999996 eV
+
+NaCl Schottky defect energy: 2.2701041699999998 eV
+Cl Frenkel defect energy: 4.1046911999999995 eV
+Na Frenkel defect energy: 3.5587813400000003 eV
+Lattice energy =-8.10831952 eV

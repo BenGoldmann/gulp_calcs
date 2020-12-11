@@ -1,0 +1,22 @@
+opti conp comp defe
+cell
+6.43903300 6.43903300 4.22321700 90.0 90.0 90.0
+frac
+Ca core 0.5 0.5 0.5
+Ca shel 0.5 0.5 0.5
+Cl core 0.69566700 0.69566700 0.00000000
+Cl shel 0.69566700 0.69566700 0.00000000
+space
+136
+species
+Cl core 1.485
+Cl shel -2.485
+Ca core -1.135
+Ca shel 3.135
+spring
+Cl 29.3800
+Ca 110.2
+buckingham
+Cl shel Cl shel 1227.20 0.3210 14.53 0 12
+Ca shel Cl shel 2302.0 0.3402 0.00 0 12
+dump Li3OCl.grs

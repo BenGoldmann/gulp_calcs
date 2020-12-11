@@ -1,0 +1,20 @@
+opti conp comp defe
+cell
+7.04722600 7.04722600 7.04722600 90.0 90.0 90.0
+frac
+Sr 0 0 0
+Cl 0.25 0.25 0.25
+space
+225
+species
+Cl core 1.485
+Cl shel -2.485
+Sr core -1.135
+Sr shel 3.135
+spring
+Cl 29.3800
+Sr 71.70
+buckingham
+Sr shel O shel 959.10 0.3721 0.00 0 12
+Sr shel Cl shel 2191.09 0.3457 0.00 0 12
+dump Na3OCl.grs

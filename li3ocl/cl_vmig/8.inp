@@ -1,0 +1,33 @@
+opti conp comp defe
+cell
+3.918873 3.918873 3.918873 90.0 90.0 90.0
+frac
+Cl core 0 0 0
+O core 0.5 0.5 0.5
+Cl shel 0 0 0
+O shel 0.5 0.5 0.5
+Li core 0.5 0.5 0
+space
+221
+centre cart 1.5675492000000002 0.0 0.0
+size 20 24
+vacancy cart 0.0 0.0 0.0
+vacancy cart 3.918873 0.0 0.0
+intersitial Cl cart 1.5675492000000002 0.0 0.0 fix
+species
+Li core 1.000
+O core 0.183
+O shel -2.183
+Cl core 1.485
+Cl shel -2.485
+spring
+O 593.7200
+Cl 29.3800
+buckingham
+Li core Li core 360.53 0.1610 0 0 12
+Li core O shel 292.30 0.3472 0 0 12
+Li core Cl shel 421.04 0.3340 0 0 12
+O shel O shel 22764.30 0.1490 13.19 0 12
+O shel Cl shel 8286.91 0.2590 62.20 0 12
+Cl shel Cl shel 1227.20 0.3210 14.53 0 12
+dump Li3OCl.grs

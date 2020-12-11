@@ -1,0 +1,21 @@
+opti conp comp defe
+cell
+1.853 1.853 1.853 90.0 90.0 90.0
+frac
+Ba 0 0 0
+Cl 0.25 0.25 0.25
+space
+225
+species
+Cl core 1.485
+Cl shel -2.485
+Ba core -7.203
+Ba shel 9.203
+spring
+Cl 29.3800
+Ba 495.2
+buckingham
+Cl shel Cl shel 1227.20 0.3210 14.53 0 12
+Ba shel O shel 905.7 0.3976 0.00 0 12
+Ba shel Cl shel 2704.55 0.3528 0.00 0 12
+dump Na3OCl.grs

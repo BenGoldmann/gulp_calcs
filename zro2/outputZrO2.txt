@@ -1,0 +1,17 @@
+O vacancy defect energy:  14.66570197  eV
+O vacancy migration barrier:  -0.0620014900000001  eV
+O interstitial defect energy:  -9.32291362  eV
+O interstitial migration barrier:  -0.34908053000000017  eV
+
+
+Zr vacancy defect energy:  85.97593763  eV
+Zr vacancy migration barrier:  6.510806299999999  eV
+Zr interstitial defect energy:  -66.16045102  eV
+Zr interstitial migration barrier:  8.705746679999997  eV
+
+
+ZrO2 Schottky defect energy:  5.54428218000001  eV
+O Frenkel defect energy:  4.993707820000001  eV
+Zr Frenkel defect energy:  28.521233290000005  eV
+Free energy = -109.76305939  eV
+

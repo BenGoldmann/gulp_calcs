@@ -1,0 +1,18 @@
+Li vacancy defect energy: 5.03283712 eV
+Li vacancy migration barrier: 0.25400557000000035 eV
+Li interstitial defect energy: -2.04050182 eV
+
+O vacancy defect energy: 23.51052336 eV
+O vacancy migration barrier: 4.066546410000001 eV
+O interstitial defect energy: -16.44680185 eV
+
+Cl vacancy defect energy: 5.51713726 eV
+Cl vacancy migration barrier: -2.6985710000000003 eV
+Cl interstitial defect energy: -1.02399546 eV
+
+Li3OCl Schottky defect energy: 5.913949909999992 eV
+LiCl partial Schottky defect energy: 1.96997438 eV
+Li Frenkel defect energy: 2.9923353 eV
+O Frenkel defect energy: 7.063721510000001 eV
+Cl Frenkel defect energy: 4.4931418 eV
+Lattice energy: -38.21222207 eV

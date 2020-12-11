@@ -1,0 +1,20 @@
+opti conp comp defe
+cell
+1.59 1.59 1.59 90.0 90.0 90.0
+frac
+O core 0.0 0.0 0.0
+O shel 0.0 0.0 0.0
+Li core 0.25 0.25 0.25
+space
+225
+species
+Li core 1.000
+O core 0.183
+O shel -2.183
+spring
+O 593.7200
+buckingham
+Li core Li core 360.53 0.1610 0 0 12
+Li core O shel 292.30 0.3472 0 0 12
+O shel O shel 22764.30 0.1490 13.19 0 12
+dump Li3OCl.grs

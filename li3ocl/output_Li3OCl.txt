@@ -1,0 +1,56 @@
+Calculations on Li3OCl anti-perovskite:
+***************************************
+
+Li vacancy defect energy: 5.04 eV
+Li vacancy migration barrier: 0.25 eV
+Li interstitial defect energy: -2.03 eV
+
+O vacancy defect energy: 23.53 eV
+O vacancy migration barrier: 4.08 eV
+O interstitial defect energy: -16.46 eV
+
+Cl vacancy defect energy: 5.52 eV
+Cl vacancy migration barrier: 1.42 eV
+Cl interstitial defect energy: -1.01 eV
+
+Mg impurity on Li defect energy: -14.45 eV
+Ca impurity on Li defect energy: -8.25 eV
+Sr impurity on Li defect energy: -6.36 eV
+Ba impurity on Li defect energy: -3.79 eV
+
+Mg impurity and Li vacancy energy: -9.76 eV
+Ca impurity and Li vacancy energy: -3.87 eV
+Sr impurity and Li vacancy energy: -2.0 eV
+Ba impurity and Li vacancy energy: 0.48 eV
+
+Li3OCl Schottky defect energy: 5.92 eV
+LiCl partial Schottky defect energy: 1.83 eV
+Li2O partial Schottky defect energy: 3.54 eV
+Li Frenkel defect energy: 3.0 eV
+O Frenkel defect energy: 7.07 eV
+Cl Frenkel defect energy: 4.51 eV
+
+MgCl2 on Li doping defect energy: -0.08 eV
+MgO on Li doping defect energy: 2.7 eV
+Mg impurity and Li vacancy clustering energy: -0.35 eV
+CaCl2 on Li doping defect energy: 0.76 eV
+CaO on Li doping defect energy: 3.63 eV
+Ca impurity and Li vacancy clustering energy: -0.66 eV
+SrCl2 on Li doping defect energy: 2.63 eV
+SrO on Li doping defect energy: 3.03 eV
+Sr impurity and Li vacancy clustering energy: -0.68 eV
+BaCl2 on Li doping defect energy: 4.22 eV
+BaO on Li doping defect energy: 3.4 eV
+Ba impurity and Li vacancy clustering energy: -0.77 eV
+
+Lattice energy of Li3OCl (from calculations): -38.23 eV
+Lattice energy of LiCl (from calculations): -8.59 eV
+Lattice energy of Li2O (from calculations): -29.04 eV
+Lattice energy of MgO (from calculations): -41.16 eV
+Lattice energy of MgCl2 (from calculations): -26.52 eV
+Lattice energy of CaO (from calculations): -35.88 eV
+Lattice energy of CaCl2 (from calculations): -21.15 eV
+Lattice energy of SrO (from calculations): -33.4 eV
+Lattice energy of SrCl2 (from calculations): -21.14 eV
+Lattice energy of BaO (from calculations): -31.2 eV
+Lattice energy of BaCl2 (from calculations): -20.16 eV

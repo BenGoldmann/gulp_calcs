@@ -1,0 +1,7 @@
+include /home/ben/Documents/gulp/data_files/li3ocl_structure.inp 
+centre cart 1.9594365 0.0 0.0
+vacancy cart 0.0 0.0 0.0
+vacancy cart 3.918873 0.0 0.0
+interstitial Cl cart 1.9594365 0.0 0.0 fix
+size 16 20
+include /home/ben/Documents/gulp/data_files/li3ocl_potentials.inp 

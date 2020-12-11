@@ -1,0 +1,7 @@
+include /home/ben/Documents/gulp/data_files/li3ocl_structure.inp 
+centre 0.5 0.25 0.25
+vacancy 0.5 0.5 0.0
+vacancy 0.5 0.0 0.5
+interstitial Li 0.5 0.25 0.25 fix
+size 16 20
+include /home/ben/Documents/gulp/data_files/li3ocl_potentials.inp 

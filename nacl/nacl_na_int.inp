@@ -1,0 +1,32 @@
+opti conp defe
+title 1
+Na vacancy in NaCl
+name NaCl
+cell
+5.578 5.578 5.578 90.0 90.0 90.0
+frac
+Na core 0.0 0.0 0.0
+Na shel 0.0 0.0 0.0
+Cl core 0.5 0.0 0.0
+Cl shel 0.5 0.0 0.0
+space
+225
+centre 0.25 0.25 0.25
+size 10 20
+interstitial Na 0.25 0.25 0.25
+buck
+Na shel Na shel 7895.0 0.1709 14.53 0 12
+buck
+Na shel Cl shel 2314.7 0.2903 0 0 12
+buck
+Cl shel Cl shel 1227.2 0.3214 14.53 0 12
+spring
+Na 96.44
+spring
+Cl 29.38
+species
+Na core -1.128
+Na shel 2.128
+Cl core 1.485
+Cl shel -2.485
+dump NaCl.grs
