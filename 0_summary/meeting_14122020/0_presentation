@@ -3,7 +3,7 @@
 
 2. Tried to calculate migration curves with defect size 12 16 (to reduce computational cost):
     -plots were not smooth
-    -realised that migration barrier was different compared to migration barrier
+    -realised that migration barrier was different compared to migration barrier calculated earlier
 
 3. Realised that difference could be due to the position of the defect centre:
     -initial caluations defect centre on vacant site
