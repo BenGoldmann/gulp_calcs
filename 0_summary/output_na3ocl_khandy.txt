@@ -1,0 +1,32 @@
+Na vacancy defect energy: 4.78 eV
+
+Na vacancy migration barrier: 0.46 eV
+
+Na interstitial defect energy: -2.21 eV
+
+O vacancy defect energy: 21.88 eV
+
+O interstitial defect energy: -14.24 eV
+
+Cl vacancy defect energy: 5.19 eV
+
+Cl interstitial defect energy: -1.51 eV
+
+Na3OCl Schottky defect energy: 6.74 eV
+
+NaCl partial Schottky defect energy: 1.88 eV
+
+Na2O partial Schottky defect energy: 5.14 eV
+
+Na Frenkel defect energy: 2.58 eV
+
+O Frenkel defect energy: 7.64 eV
+
+Cl Frenkel defect energy: 3.68 eV
+
+
+Lattice energy of Na3OCl (from calculations): -34.68 eV
+
+Lattice energy of NaCl (from calculations): -8.09 eV
+
+Lattice energy of Na2O (from calculations): -26.3 eV
