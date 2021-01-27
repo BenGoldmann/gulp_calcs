@@ -22,28 +22,28 @@ Sr impurity and Na vacancy energy: -5.2 eV
 Ba impurity and Na vacancy energy: -3.17 eV
 
 Na3OCl Schottky defect energy: 6.74 eV
-NaCl partial Schottky defect energy: 1.88 eV
-Na2O partial Schottky defect energy: 5.14 eV
+NaCl partial Schottky defect energy: 1.96 eV
+Na2O partial Schottky defect energy: 5.06 eV
 Na Frenkel defect energy: 2.58 eV
 O Frenkel defect energy: 7.64 eV
 Cl Frenkel defect energy: 3.68 eV
 
-MgCl2 on Na doping defect energy: -1.17 eV
-MgO on Na doping defect energy: 3.35 eV
+MgCl2 on Na doping defect energy: -1.01 eV
+MgO on Na doping defect energy: 3.27 eV
 Mg impurity and Na vacancy clustering energy: -0.32 eV
-CaCl2 on Na doping defect energy: -1.43 eV
-CaO on Na doping defect energy: 3.18 eV
+CaCl2 on Na doping defect energy: -1.27 eV
+CaO on Na doping defect energy: 3.09 eV
 Ca impurity and Na vacancy clustering energy: -0.58 eV
-SrCl2 on Na doping defect energy: 0.33 eV
-SrO on Na doping defect energy: 2.47 eV
+SrCl2 on Na doping defect energy: 0.48 eV
+SrO on Na doping defect energy: 2.38 eV
 Sr impurity and Na vacancy clustering energy: -0.57 eV
-BaCl2 on Na doping defect energy: 1.44 eV
-BaO on Na doping defect energy: 2.36 eV
+BaCl2 on Na doping defect energy: 1.6 eV
+BaO on Na doping defect energy: 2.28 eV
 Ba impurity and Na vacancy clustering energy: -0.63 eV
 
 Lattice energy of Na3OCl (from calculations): -34.68 eV
-Lattice energy of NaCl (from calculations): -8.09 eV
-Lattice energy of Na2O (from calculations): -26.3 eV
+Lattice energy of NaCl (from calculations): -8.01 eV
+Lattice energy of Na2O (from calculations): -26.38 eV
 Lattice energy of MgO (from calculations): -41.16 eV
 Lattice energy of MgCl2 (from calculations): -26.52 eV
 Lattice energy of CaO (from calculations): -35.88 eV

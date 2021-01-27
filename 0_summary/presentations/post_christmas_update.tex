@@ -124,7 +124,7 @@
       \ch{Na2O} Schottky, ev & 5.14 & 2.52\cite{RN72} & & \\
       \ch{Na3OCl} Schottky, ev & 6.74 & 6.10\cite{RN55} & & \\
       \hline
-      Na vacancy migration, eV & 0.46 & 0.61\cite{RN72}, 0.428\cite{RN68}, 0.29\cite{RN53} & & & 0.63\cite{RN68}, 1.04\cite{RN53} \\
+      Na vacancy migration, eV & 0.46 & 0.61\cite{RN72}, 0.428\cite{RN68}, 0.29\cite{RN53}, 0.29\cite{RN55} & & & 0.63\cite{RN68}, 1.04\cite{RN53} \\
     \end{tabular}}
   \end{center}
 \end{table}
@@ -139,9 +139,11 @@
 \frametitle{Review of results}
 
 \begin{itemize}
+  \item Concern over slightly off lattice parameter
   \item Discussion with Ben and Lucy
   \item They suggested that while the results may look good, they might not be accurate
-  \item They proposed trying to fit the potentials using Lucy's code (involving fitting to DFT)
+  \item They proposed trying to fit the potentials using Lucy's code
+  \item This involves thermally distorting the initial structure via AIMD, taking snapshots,, doing single-point calculations on the snapshots and fitting the potentials to them
 \end{itemize}
 
 \end{frame}
